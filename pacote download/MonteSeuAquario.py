@@ -4,12 +4,12 @@ sleep(1)
 print('\033[1mVamos coletar algumas informações...\033[m \n') #Mais uma interação com o úsuário infoando que ele deverá fornecer algumas informações
 sleep(1)'''
 
-medida1 = int(input('\033[4mQual a largura do seu aquário:  '))#Usuário informa as medidas do aquário
+medida1 = int(input('\033[4mQual a largura do seu aquário:  '))
 medida2 = int(input('033mQual a profundidade do seu aquário:  '))
 medida3 = int(input('Qual a altura do seu aquário:  \033[m'))
 
 litragem = (medida3 * medida2 * medida1) / 1000
-print('Seu aquário tem \033[1:31m{}\033[m litros'.format(litragem)) #Resposta do resultado das medidas do aquário do usuário
+print('Seu aquário tem \033[1:31m{}\033[m litros'.format(litragem)) 
 for c in range(1):
         DOCE = 0
         SALGADO = 0
